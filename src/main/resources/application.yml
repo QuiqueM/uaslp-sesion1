@@ -1,4 +1,9 @@
 server:
   port: 6060
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kanban
+    username: postgres
+    password: postgres
 
